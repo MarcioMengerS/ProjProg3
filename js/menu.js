@@ -65,7 +65,6 @@ function Menu(config){
         
         _opened = false;
     }
-    
 }
 
 

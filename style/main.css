@@ -268,7 +268,6 @@ table{
     background-color: rgba(102, 173, 255, 0.733)
 }
 
-
 .people-cards{
     margin-top: 2.5em;
 }
@@ -279,6 +278,7 @@ table{
 .people-cards__card:hover{
     outline: 5px solid #0E68BA;
     outline-offset: -5px;
+    transform: scale(1.1);
 }
 .people-cards__card:hover .people-cards__avatar img{
     transform: translateY(-50%);
@@ -346,7 +346,7 @@ table{
     background-color: #929da5;
 }
 .button-primary{
-    background-color: #69c6ae;
+    background-color: #0E68BA;
     color: white;
 }
 .button-secundary{

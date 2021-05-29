@@ -24,3 +24,7 @@
         btnNext: '.next'
     })
 })()
+function acessar(){
+    
+    alert("Email ou senha incorretos!");
+}
