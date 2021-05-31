@@ -24,7 +24,7 @@
         btnNext: '.next'
     })
 })()
+//função para verificar se nome e senha estão corretos
 function acessar(){
-    
     alert("Email ou senha incorretos!");
 }

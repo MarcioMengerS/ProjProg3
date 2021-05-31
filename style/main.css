@@ -28,7 +28,10 @@ img{
 
 .logo-text{
     text-transform: uppercase;
+
+    /*busquei cor através do ferramenta colorzila*/
     background-color: #063A8E;
+
     font-size: 24px;
     margin: 0;
     padding: 20px;
@@ -64,6 +67,7 @@ img{
     transition: .8s ease;
 }
 .header__nav a:hover {
+    /*busquei cor através do ferramenta colorzila para efeito de transição*/
     color: #063A8E;   
 }
 .header__btnMenu{
@@ -159,6 +163,59 @@ img{
     right: 10px;
 }
 
+/*Adicionei classe concursos para página concursos*/
+.concursos{
+    height: 80vh;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(45deg, white 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat, 
+                linear-gradient(-45deg, white 50%, transparent 50%) left calc(50% - 20px) bottom no-repeat, 
+                url(../img/concursos-publicos.png);
+    background-size: 40px 40px, 40px 40px, cover;
+}
+
+/*Adicionei classe intranet para página intranet*/
+.intranet{
+    height: 50vh;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: 40px 40px, 40px 40px;
+    background-color: #0E68ba;
+}
+
+/*Estilo do formulário da página intranet*/
+.intrabox{
+    padding-top: 20px;
+    border-radius: 0.5em;
+    background-color: #fff;
+    height: 140px;
+    width: 380px;
+}
+
+/*Adicionei classe contato para página contato*/
+.contato{
+    height: 80vh;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(45deg, white 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat, 
+                linear-gradient(-45deg, white 50%, transparent 50%) left calc(50% - 20px) bottom no-repeat, 
+                url(../img/contato.jpg);
+    background-size: 40px 40px, 40px 40px, cover;
+}
 
 .hero{
     height: 80vh;
@@ -175,63 +232,19 @@ img{
     background-size: 40px 40px, 40px 40px, cover;
 }
 
-.concursos{
-    height: 80vh;
-    padding: 40px 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    background: linear-gradient(45deg, white 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat, 
-                linear-gradient(-45deg, white 50%, transparent 50%) left calc(50% - 20px) bottom no-repeat, 
-                url(../img/concursos-publicos.png);
-    background-size: 40px 40px, 40px 40px, cover;
-}
-
-.intranet{
-    height: 50vh;
-    padding: 40px 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-size: 40px 40px, 40px 40px;
-    background-color: #0E68ba;
-}
-.intrabox{
-    padding-top: 20px;
-    border-radius: 0.5em;
-    background-color: #fff;
-    height: 140px;
-    width: 380px;
-}
-.contato{
-    height: 80vh;
-    padding: 40px 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    background: linear-gradient(45deg, white 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat, 
-                linear-gradient(-45deg, white 50%, transparent 50%) left calc(50% - 20px) bottom no-repeat, 
-                url(../img/contato.jpg);
-    background-size: 40px 40px, 40px 40px, cover;
-}
-
 .hero__title{
+    /*busquei cor através do ferramenta colorzila*/
     background-color: #063A8E;
     color: white;
     font-size: 28px;
     font-weight: 600;
     padding: 30px 20px;
-    text-transform: uppercase;
+    text-transform:uppercase;
+    /*Inseri sombra no título*/
+    box-shadow: 6px 8px 5px rgb(128, 128, 50);
 }
 
+/*formatei a tag table para ficar com estilo atual*/
 table{
     display:block;
     margin: 1em 1em 1em 1em;
@@ -239,6 +252,7 @@ table{
     font-size: 30px;
     border-style:double;
     border-width:thick;
+    /*busquei cor através do ferramenta colorzila*/
     border-color:#063A8E;
     border-radius: 0.6em;
     font-weight: bold;
@@ -264,6 +278,8 @@ table{
     font-weight: 600;
     text-transform: uppercase;
 }
+
+/*cor no botão da intranet*/
 .hero__btn:hover{
     background-color: rgba(102, 173, 255, 0.733)
 }
@@ -272,12 +288,12 @@ table{
     margin-top: 2.5em;
 }
 
-.people-cards__card{
-    
-}
 .people-cards__card:hover{
+    /*busquei cor através do ferramenta colorzila*/
     outline: 5px solid #0E68BA;
     outline-offset: -5px;
+
+    /*efeito de lupa na tela*/
     transform: scale(1.1);
 }
 .people-cards__card:hover .people-cards__avatar img{
@@ -285,6 +301,7 @@ table{
 }
 .people-cards__card:hover .people-cards__title,
 .people-cards__card:hover .people-cards__text{
+    /*busquei cor através do ferramenta colorzila*/
     color: #0E68BA;
 }
 
@@ -346,6 +363,7 @@ table{
     background-color: #929da5;
 }
 .button-primary{
+    /*busquei cor através do ferramenta colorzila*/
     background-color: #0E68BA;
     color: white;
 }
@@ -357,6 +375,7 @@ table{
 
 
 .last-articles__title{
+    /*busquei cor através do ferramenta colorzila*/
     background-color: #0E68BA;
     padding: 5px 0;
 }
@@ -399,6 +418,7 @@ table{
 
 
 .quote-container{
+    /*busquei cor através do ferramenta colorzila*/
     background-color: #0E68BA;
     padding: 50px 0;
     border-bottom: 12px solid #0E68ba;
